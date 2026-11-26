@@ -1,0 +1,117 @@
+{
+  "_shenim": "Rregullat që ndryshojnë nga viti në vit. Ndryshoni këtu, jo në kod. Emrat krahasohen pa shkronja të mëdha, pa diakritikë (ë=e, ç=c), pa hapësira dhe pa shenja.",
+
+  "kolonat": {
+    "_shenim": "emri standard (si në eksportin 2026)  →  emrat e tjerë që mund të ketë kolona në vite të tjera",
+    "interview__key":        ["interview__key", "key", "interviewkey"],
+    "interview__id":         ["interview__id"],
+    "referues":              ["referues", "no", "nr", "nrrendor", "rendor"],
+    "datapytesorit":         ["datapytesorit", "date", "data", "dataepytesorit", "dataeintervistes"],
+    "pytesorivendi":         ["pytesorivendi", "pika", "pikakufitare", "pikadoganore"],
+    "anketuesi":             ["anketuesi", "id", "anketues", "studentid"],
+    "group":                 ["group", "grupi"],
+    "nrpers":                ["nrpers"],
+    "nrpers18":              ["nrpers18"],
+    "shteti":                ["shteti"],
+    "pasaporta":             ["pasaporta"],
+    "miksPasaportKosovare":  ["mikspasaportkosovare"],
+    "miksPasaportaHuaj":     ["mikspasaportahuaj"],
+    "Qellimi":               ["qellimi"],
+    "dataks":                ["dataks", "dataeardhjes"],
+    "vizitejashtks":         ["vizitejashtks", "vizitejashtekosoves", "vizite"],
+    "vendi":                 ["vendi"],
+    "ditet":                 ["ditet", "sadite", "ditetjashte"],
+    "remitanca":             ["remitanca"],
+    "transfer__1":           ["transfer__1", "transfer"],
+    "transfer__2":           ["transfer__2", "kartele"],
+    "transfer__3":           ["transfer__3", "agjenci"],
+    "transfer__4":           ["transfer__4", "cash"],
+    "transfer__5":           ["transfer__5", "teaferm"],
+    "totali":                ["totali", "totalshudhetimit"],
+    "para_arritjes":         ["para_arritjes", "paraarritjes"],
+    "akomodimi":             ["akomodimi", "akomodim"],
+    "blerjaProd":            ["blerjaprod", "blerjeprodukte", "produkte"],
+    "Ushqim":                ["ushqim"],
+    "argetimi":              ["argetimi", "argetim"],
+    "shpenzimetTran":        ["shpenzimettran", "transport"],
+    "shpenzimeSh":           ["shpenzimesh", "shendet"],
+    "DhurataPer":            ["dhurataper", "dhurataperkosovaret"],
+    "ParaFalur":             ["parafalur", "paratefalura"],
+    "blerjePatun":           ["blerjepatun", "patundshmeri"],
+    "shpenzimeTjera":        ["shpenzimetjera"],
+    "vleraShpenzimit":       ["vlerashpenzimit", "tetjera"],
+    "PaguarKartel":          ["paguarkartel"],
+    "dhuratangaKosova":      ["dhuratangakosova", "dhuratangakosovaret"],
+    "tetjera":               ["tetjera2"],
+    "shumaShpenzimit":       ["shumashpenzimit"],
+    "deposita":              ["deposita", "depozita"],
+    "forma":                 ["forma"],
+    "sssys_irnd":            ["sssys_irnd"],
+    "has__errors":           ["has__errors"],
+    "interview__status":     ["interview__status"],
+    "assignment__id":        ["assignment__id"]
+  },
+
+  "te_domosdoshme": ["datapytesorit", "group", "nrpers", "dataks", "vizitejashtks", "ditet", "totali",
+                     "para_arritjes", "akomodimi", "Ushqim", "argetimi", "shpenzimetTran", "shpenzimeSh",
+                     "DhurataPer", "ParaFalur", "blerjePatun"],
+
+  "kolona_pa_tabela": ["interview__id", "sssys_irnd", "has__errors", "interview__status", "assignment__id",
+                       "PaguarKartel", "shumaShpenzimit", "shpenzimeTjera", "tetjera"],
+
+  "kolona_teksti": ["interview__key", "interview__id", "shpenzimeTjera", "tetjera"],
+  "kolona_date": ["datapytesorit", "dataks"],
+
+  "kodet_e_munguara": [-999999999],
+  "tekstet_e_munguara": ["##N/A##"],
+  "numra_me_fjale": {
+    "asnje": 0, "asnjë": 0, "zero": 0, "ska": 0, "s'ka": 0, "nuk ka": 0,
+    "nje": 1, "një": 1, "dy": 2, "tre": 3, "tri": 3, "kater": 4, "katër": 4, "pese": 5, "pesë": 5,
+    "gjashte": 6, "gjashtë": 6, "shtate": 7, "shtatë": 7, "tete": 8, "tetë": 8, "nente": 9, "nëntë": 9,
+    "dhjete": 10, "dhjetë": 10
+  },
+
+  "pika_kufitare": {
+    "_shenim": "Kuptimi i kodeve të pikës kufitare. 'parazgjedhje' = 2026. Për një vit tjetër shtoni p.sh. \"2018\": {\"1\": \"A\", \"2\": \"M\"}. Nëse codebook-u i vitit ka etiketat '1A'/'2M', ato përdoren automatikisht.",
+    "parazgjedhje": {"1": "M", "2": "A"},
+    "2018": {"1": "A", "2": "M"},
+    "tekste": {"a": "A", "aeroport": "A", "aeroporti": "A", "airport": "A", "1a": "A",
+               "m": "M", "merdare": "M", "merdarë": "M", "2m": "M"}
+  },
+
+  "po_jo": {
+    "_shenim": "Pyetjet Po/Jo. Në disa vite Jo = 0 (p.sh. 2018), në të tjera Jo = 2. Kur një kolonë ka vetëm 0 dhe 1, 0 shndërrohet në 2.",
+    "kolonat": ["remitanca", "deposita"]
+  },
+
+  "data": {
+    "dite_dalluese": 5,
+    "min_intervista_fqinje": 3,
+    "dita_e_pare_e_muajit": true
+  },
+
+  "pragu_shpenzimeve": 10000,
+
+  "emrat_e_shteteve": {
+    "_shenim": "ISO → emri në tabela (drejtshkrimi i raportit 2026). Kodet numerike → ISO merren nga codebook-u i vitit.",
+    "CH": "Zvicër", "DE": "Gjermani", "US": "SHBA", "SE": "Suedi", "GB": "Mbretëria e Bashkuar", "AT": "Austri",
+    "FI": "Finlandë", "NO": "Norvegji", "BE": "Belgjikë", "DK": "Danimarkë", "FR": "Francë", "NL": "Holandë",
+    "IS": "Islandë", "HU": "Hungari", "IT": "Itali", "CA": "Kanada", "HR": "Kroaci", "LU": "Luksemburg",
+    "PL": "Poloni", "SI": "Slloveni", "SK": "Sllovaki", "BG": "Bullgari", "BA": "Bosnjë dhe Hercegovinë",
+    "BH": "Bosnjë dhe Hercegovinë", "BY": "Bjellorusi", "CZ": "Çeki", "AU": "Australi", "RS": "Serbi", "TR": "Turqi",
+    "GR": "Greqi", "IE": "Irlandë", "PT": "Portugali", "RO": "Rumani", "ES": "Spanjë", "CN": "Kinë",
+    "AL": "Shqipëri", "ME": "Mal i Zi", "MK": "Maqedoni e Veriut"
+  },
+  "kodet_e_shteteve_parazgjedhje": {
+    "1": "CH", "2": "DE", "3": "US", "4": "SE", "5": "GB", "6": "AT", "7": "FI", "8": "NO", "9": "BE", "10": "DK",
+    "11": "FR", "12": "NL", "13": "IS", "14": "HU", "15": "IT", "16": "CA", "17": "HR", "18": "LU", "19": "PL",
+    "20": "SI", "21": "SK", "22": "BG", "23": "BA", "24": "BY", "25": "CZ", "26": "AU", "27": "RS", "28": "TR",
+    "29": "GR", "30": "IE", "31": "PT", "32": "RO", "33": "ES", "34": "CN"
+  },
+  "kodet_e_vendeve_parazgjedhje": {"1": "AL", "2": "ME", "3": "HR", "4": "ES", "5": "TR", "6": "GR", "7": "PT", "8": "IT"},
+  "emrat_pa_iso": {
+    "_shenim": "Për codebook-et pa kod ISO (2016–2017): emri → ISO.",
+    "shqiperi": "AL", "malizi": "ME", "maqedoni": "MK", "greqi": "GR", "kroaci": "HR", "turqi": "TR",
+    "spanje": "ES", "portugali": "PT", "itali": "IT", "tjeter": null
+  }
+}
